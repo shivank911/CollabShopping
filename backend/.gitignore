@@ -1,0 +1,71 @@
+# Dependenciesnode_modules/
+
+node_modules/dist/
+
+package-lock.jsonbuild/
+
+.env
+
+# Environment variables.env.local
+
+.env.env.*.local
+
+.env.local
+
+.env.*.local# Logs
+
+logs
+
+# Build output*.log
+
+dist/npm-debug.log*
+
+build/yarn-debug.log*
+
+yarn-error.log*
+
+# Logs
+
+logs/# Runtime data
+
+*.logpids
+
+npm-debug.log**.pid
+
+yarn-debug.log**.seed
+
+yarn-error.log**.pid.lock
+
+
+
+# OS files# Editor
+
+.DS_Store.vscode/
+
+Thumbs.db.idea/
+
+*.swp
+
+# IDE*.swo
+
+.vscode/*~
+
+.idea/
+
+*.swp# OS
+
+*.swo.DS_Store
+
+*~Thumbs.db
+
+
+
+# Testing# Testing
+
+coverage/coverage/
+
+.nyc_output/.nyc_output/
+
+
+# Production
+.cache/
